@@ -41,3 +41,5 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 ### Deprecations
 
 - Deprecate `Sheet` component [#4210](https://github.com/Shopify/polaris-react/pull/4210)
+
+### TEST
