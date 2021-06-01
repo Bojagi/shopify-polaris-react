@@ -1476,10 +1476,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bojagi/cli@^0.17.1":
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.17.1.tgz#1d2ad4938e18fad64ead1b294674dc99ac41a14d"
-  integrity sha512-VkXxRK0/mbP0zkEDktZNrT1Kki9CoO6tWcjTQoC7yr7+/UcifPxuLZH+QOMw2t24L4JT9ZU/H1oyMS873zX+BA==
+"@bojagi/cli@^0.18.0-next.1":
+  version "0.18.0-next.1"
+  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.18.0-next.1.tgz#b604b3bd6f34074e04f1eab0859e8210b15bded6"
+  integrity sha512-Y5Kkb/S2nHHadD180Q6bGN0LMEEY0sMH7ukwCh5aoF7CF5yLYdsnuVZLpbEGUQR+JBisjdjKIt7IUxGWOrr34w==
   dependencies:
     "@bojagi/types" "^0.9.0"
     adm-zip "^0.4.13"
@@ -1500,6 +1500,7 @@
     ink-text-input "^4.0.1"
     jsdom "^16.3.0"
     jsdom-global "^3.0.2"
+    matchmedia-polyfill "^0.3.2"
     memory-fs "^0.5.0"
     node-emoji "^1.10.0"
     open "^7.3.0"
@@ -13420,6 +13421,11 @@ marked@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.7.0.tgz#b64201f051d271b1edc10a04d1ae9b74bb8e5c0e"
   integrity sha512-c+yYdCZJQrsRjTPhUx7VKkApw9bwDkNbHUKo1ovgcfDjb2kc8rLuRbIFyXL5WOEUwzSSKo3IXpph2K6DqB/KZg==
+
+matchmedia-polyfill@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/matchmedia-polyfill/-/matchmedia-polyfill-0.3.2.tgz#4666e252aead72e8dd232a9fbde5d93fa50497d3"
+  integrity sha512-B2zRzjqxZFUusBZrZux59XFFLoTN99SbGranxIHfjZVLGZuy8Iaf/s5iNR3qJwRQZBjBKsU6qBSUCltLV82gdw==
 
 material-colors@^1.2.1:
   version "1.2.6"
