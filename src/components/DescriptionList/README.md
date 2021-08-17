@@ -17,6 +17,8 @@ keywords:
   - term explaination
   - android
   - ios
+exampleDependencies:
+  - DescriptionList
 ---
 
 # Description list

@@ -16,6 +16,9 @@ keywords:
   - padding
   - android
   - ios
+exampleDependencies:
+  - TextContainer
+  - Heading
 ---
 
 # Text container

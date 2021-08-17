@@ -7,6 +7,13 @@ keywords:
   - skeleton
   - loading
   - page
+exampleDependencies:
+  - SkeletonPage
+  - Layout
+  - Card
+  - SkeletonBodyText
+  - TextContainer
+  - SkeletonDisplayText
 ---
 
 # Skeleton page

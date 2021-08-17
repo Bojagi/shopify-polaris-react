@@ -14,6 +14,10 @@ keywords:
   - fitted tabs
   - segmented controls
   - scrollable
+exampleDependencies:
+  - Tabs
+  - Card
+  - Badge
 ---
 
 # Tabs

@@ -13,6 +13,9 @@ keywords:
   - integrate
   - facebook
   - social media
+exampleDependencies:
+  - AccountConnection
+  - Link
 ---
 
 # Account connection

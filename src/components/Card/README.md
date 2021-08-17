@@ -5,6 +5,19 @@ platforms:
   - android
   - ios
   - web
+exampleDependencies:
+  - Card
+  - List
+  - Stack
+  - ButtonGroup
+  - Button
+  - ActionList
+  - Popover
+  - ResourceList
+  - TextContainer
+  - Icon
+  - Subheading
+  - Image
 keywords:
   - layout
   - container

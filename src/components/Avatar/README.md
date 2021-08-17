@@ -23,6 +23,8 @@ keywords:
   - business thumbnail
   - ios
   - android
+exampleDependencies:
+  - Avatar
 ---
 
 # Avatar

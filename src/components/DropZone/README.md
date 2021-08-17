@@ -12,6 +12,15 @@ keywords:
   - file dialog
   - upload placeholder
   - drop placeholder
+exampleDependencies:
+  - DropZone
+  - Stack
+  - Thumbnail
+  - List
+  - Card
+  - Page
+  - Button
+  - TextStyle
 ---
 
 # Drop zone

@@ -10,6 +10,8 @@ keywords:
   - frame
   - sidebar
   - side bar
+exampleDependencies:
+  - Navigation
 ---
 
 # Navigation

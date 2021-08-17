@@ -21,6 +21,8 @@ keywords:
   - card with illustration
   - card with image
   - illustration card
+exampleDependencies:
+  - CalloutCard
 ---
 
 # Callout card

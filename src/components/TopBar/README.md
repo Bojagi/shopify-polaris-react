@@ -15,6 +15,14 @@ keywords:
   - menu
   - logo
 omitAppProvider: true
+exampleDependencies:
+  - TopBar
+  - ActionList
+  - Icon
+  - VisuallyHidden
+  - AppProvider
+  - Frame
+  - Button
 ---
 
 # Top bar

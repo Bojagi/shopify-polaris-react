@@ -13,6 +13,9 @@ keywords:
   - educational opportunity
   - educating
   - teaching
+exampleDependencies:
+  - FooterHelp
+  - Link
 ---
 
 # Footer help

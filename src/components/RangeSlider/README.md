@@ -13,6 +13,11 @@ keywords:
   - percent
   - number
   - range form
+exampleDependencies:
+  - RangeSlider
+  - Card
+  - Stack
+  - TextField
 ---
 
 # Range slider

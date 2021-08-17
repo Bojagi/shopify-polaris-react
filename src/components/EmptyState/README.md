@@ -24,6 +24,10 @@ keywords:
   - teaching
   - landing pages
   - landing layouts
+exampleDependencies:
+  - EmptyState
+  - Card
+  - Link
 ---
 
 # Empty state

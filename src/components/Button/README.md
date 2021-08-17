@@ -26,6 +26,10 @@ keywords:
   - submit
   - ios
   - android
+exampleDependencies:
+  - Button
+  - ButtonGroup
+  - Heading
 ---
 
 # Button

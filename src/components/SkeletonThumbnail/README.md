@@ -7,6 +7,8 @@ keywords:
   - skeleton
   - loading
   - page
+exampleDependencies:
+  - SkeletonThumbnail
 ---
 
 # Skeleton image

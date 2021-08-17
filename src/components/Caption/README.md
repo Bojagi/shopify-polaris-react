@@ -20,6 +20,9 @@ keywords:
   - small text
   - android
   - ios
+exampleDependencies:
+  - Caption
+  - List
 ---
 
 # Caption

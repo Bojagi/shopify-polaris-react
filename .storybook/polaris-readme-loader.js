@@ -49,109 +49,18 @@ ${example.storyName}.parameters = {
 `.trim();
   });
 
+  const componentImports = readme.exampleDependencies.map(
+    getComponentImportStatement,
+  );
+
   const hooks = Object.keys(React)
     .filter((key) => key.startsWith(HOOK_PREFIX))
     .join(', ');
 
   return `
 import React, {${hooks}} from 'react';
-import {
-  AccountConnection,
-  ActionList,
-  ActionMenu,
-  AppProvider,
-  Autocomplete,
-  Avatar,
-  Backdrop,
-  Badge,
-  Banner,
-  Breadcrumbs,
-  Button,
-  ButtonGroup,
-  CalloutCard,
-  Caption,
-  Card,
-  Checkbox,
-  ChoiceList,
-  Collapsible,
-  ColorPicker,
-  Connected,
-  ContextualSaveBar,
-  DataTable,
-  DatePicker,
-  DescriptionList,
-  DisplayText,
-  DropZone,
-  EmptySearchResult,
-  EmptyState,
-  EventListener,
-  ExceptionList,
-  Filters,
-  Focus,
-  FooterHelp,
-  Form,
-  FormLayout,
-  Frame,
-  Heading,
-  Icon,
-  Image,
-  IndexTable,
-  Indicator,
-  InlineError,
-  KeyboardKey,
-  KeypressListener,
-  Label,
-  Labelled,
-  Layout,
-  Link,
-  List,
-  Loading,
-  MediaCard,
-  Modal,
-  Navigation,
-  OptionList,
-  Page,
-  PageActions,
-  Pagination,
-  PolarisTestProvider,
-  Popover,
-  Portal,
-  ProgressBar,
-  RadioButton,
-  RangeSlider,
-  ResourceItem,
-  ResourceList,
-  ResourcePicker,
-  Scrollable,
-  ScrollLock,
-  Select,
-  SettingToggle,
-  Sheet,
-  SkeletonBodyText,
-  SkeletonDisplayText,
-  SkeletonPage,
-  SkeletonThumbnail,
-  Spinner,
-  Stack,
-  Sticky,
-  Subheading,
-  Tabs,
-  Tag,
-  TextContainer,
-  TextField,
-  TextStyle,
-  ThemeProvider,
-  Thumbnail,
-  Toast,
-  Tooltip,
-  TopBar,
-  TrapFocus,
-  Truncate,
-  UnstyledLink,
-  VisuallyHidden,
-  VideoThumbnail,
-  useIndexResourceState,
-} from '@shopify/polaris';
+${componentImports.join('\n')};
+import { useIndexResourceState } from '@shopify/polaris/utilities/use-index-resource-state';
 import {
   PlusMinor,
   AlertMinor,
@@ -233,6 +142,10 @@ function pascalCase(str) {
     .join('');
 }
 
+function getComponentImportStatement(name) {
+  return `import { ${name} } from '../${name}';`;
+}
+
 function isExampleForPlatform(exampleMarkdown, platform) {
   const foundExampleFor = exampleMarkdown.match(exampleForRegExp);
 
@@ -250,6 +163,9 @@ function parseCodeExamples(data) {
   return {
     name: matter.data.name,
     category: matter.data.category,
+    exampleDependencies: Array.isArray(matter.data.exampleDependencies)
+      ? matter.data.exampleDependencies
+      : [],
     component: examples.length ? toPascalCase(matter.data.name) : undefined,
     examples,
     omitAppProvider: matter.data.omitAppProvider || false,

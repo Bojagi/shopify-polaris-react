@@ -24,6 +24,15 @@ keywords:
   - page layouts
   - android
   - ios
+exampleDependencies:
+  - Page
+  - Badge
+  - Thumbnail
+  - Avatar
+  - Button
+  - Card
+  - Stack
+  - PageActions
 ---
 
 # Page

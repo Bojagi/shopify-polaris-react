@@ -27,6 +27,15 @@ keywords:
   - banner text
   - banner body text
   - full-width alert
+exampleDependencies:
+  - Banner
+  - Link
+  - Button
+  - Modal
+  - TextContainer
+  - Navigation
+  - List
+  - Card
 ---
 
 # Banner

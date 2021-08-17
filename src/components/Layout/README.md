@@ -15,6 +15,15 @@ keywords:
   - setting page
   - grouped sections
   - annotated sections
+exampleDependencies:
+  - Layout
+  - Card
+  - TextStyle
+  - ResourceList
+  - Thumbnail
+  - FormLayout
+  - TextField
+  - Banner
 ---
 
 # Layout

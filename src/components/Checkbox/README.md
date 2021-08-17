@@ -17,6 +17,8 @@ keywords:
   - multiple selections
   - form selections
   - multi-choice lists
+exampleDependencies:
+  - Checkbox
 ---
 
 # Checkbox

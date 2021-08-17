@@ -10,6 +10,15 @@ keywords:
   - light mode
   - dark mode
 omitAppProvider: true
+exampleDependencies:
+  - ThemeProvider
+  - AppProvider
+  - Card
+  - List
+  - TextContainer
+  - Stack
+  - TextStyle
+  - Button
 ---
 
 # Theme provider

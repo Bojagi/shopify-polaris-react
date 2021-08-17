@@ -10,6 +10,12 @@ keywords:
   - small popover
   - hover
   - tap
+exampleDependencies:
+  - Tooltip
+  - TextStyle
+  - ButtonGroup
+  - Button
+  - TextField
 ---
 
 # Tooltip

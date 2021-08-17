@@ -72,6 +72,7 @@
     "version": "yarn run readme-update-version",
     "storybook": "start-storybook -p 6006 --quiet",
     "storybook:build": "yarn run copy-polaris-tokens && build-storybook -o build/storybook/static",
+    "bojagi:deploy": "yarn run copy-polaris-tokens && bojagi deploy",
     "precolordocs": "yarn run build",
     "colordocs": "node ./scripts/color-system-docs",
     "postcolordocs": "yarn run format"
@@ -93,6 +94,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/node": "^7.6.1",
+    "@bojagi/cli": "^0.18.0-next.1",
     "@rollup/plugin-babel": "^5.1.0",
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-image": "^2.0.5",

@@ -6,6 +6,8 @@ keywords:
   - exceptions
   - list
   - list exceptions
+exampleDependencies:
+  - ExceptionList
 ---
 
 # Exception list

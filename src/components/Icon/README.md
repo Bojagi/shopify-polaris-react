@@ -13,6 +13,8 @@ keywords:
   - alternative text
   - wayfinding
   - alert
+exampleDependencies:
+  - Icon
 ---
 
 # Icon

@@ -9,6 +9,17 @@ keywords:
   - index
   - list filter
   - table
+exampleDependencies:
+  - Filters
+  - ChoiceList
+  - TextField
+  - RangeSlider
+  - Card
+  - ResourceList
+  - Avatar
+  - TextStyle
+  - DataTable
+  - Button
 ---
 
 # Filters

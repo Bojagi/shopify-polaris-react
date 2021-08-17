@@ -7,6 +7,8 @@ keywords:
   - skeleton
   - loading
   - page
+exampleDependencies:
+  - SkeletonDisplayText
 ---
 
 # Skeleton display text

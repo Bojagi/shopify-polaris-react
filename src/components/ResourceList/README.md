@@ -23,6 +23,18 @@ keywords:
   - list of resources
   - filter
   - sort
+exampleDependencies:
+  - ResourceList
+  - Card
+  - Avatar
+  - ResourceItem
+  - TextStyle
+  - Filters
+  - EmptyState
+  - Page
+  - Layout
+  - Button
+  - TextField
 ---
 
 # Resource list

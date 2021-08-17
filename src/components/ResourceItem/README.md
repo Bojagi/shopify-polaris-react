@@ -22,6 +22,12 @@ keywords:
   - list secondary actions
   - secondary actions in a list
   - list of resources
+exampleDependencies:
+  - ResourceItem
+  - Card
+  - ResourceList
+  - TextStyle
+  - Avatar
 ---
 
 # Resource item

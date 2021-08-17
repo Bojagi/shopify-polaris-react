@@ -16,6 +16,12 @@ keywords:
   - accessibility
   - a11y
   - assistive technology
+exampleDependencies:
+  - VisuallyHidden
+  - Card
+  - Heading
+  - FormLayout
+  - TextField
 ---
 
 # Visually hidden

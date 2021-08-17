@@ -5,6 +5,12 @@ keywords:
   - autocomplete
   - searchable
   - typeahead
+exampleDependencies:
+  - Autocomplete
+  - TextContainer
+  - Tag
+  - Stack
+  - Icon
 ---
 
 # Autocomplete

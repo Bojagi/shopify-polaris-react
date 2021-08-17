@@ -20,6 +20,12 @@ keywords:
   - ios
   - android
   - web
+exampleDependencies:
+  - Toast
+  - Frame
+  - Page
+  - Button
+  - ButtonGroup
 ---
 
 # Toast
