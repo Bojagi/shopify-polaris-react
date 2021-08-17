@@ -33,6 +33,7 @@ $dropzone-stacking-order: (
   display: flex;
   justify-content: center;
   background-color: var(--p-surface);
+  background-color: blue;
   border-radius: var(--p-border-radius-base);
 
   &::after {
