@@ -11,6 +11,8 @@ keywords:
   - form error
   - invalid input
   - form group
+exampleDependencies:
+  - InlineError
 ---
 
 # Inline error

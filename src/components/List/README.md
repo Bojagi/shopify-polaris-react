@@ -14,6 +14,8 @@ keywords:
   - text-only lists
   - ios
   - android
+exampleDependencies:
+  - List
 ---
 
 # List

@@ -21,6 +21,9 @@ keywords:
   - list of check boxes
   - multi-choice list
   - single-choice list
+exampleDependencies:
+  - ChoiceList
+  - TextField
 ---
 
 # Choice list

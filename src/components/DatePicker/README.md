@@ -19,6 +19,8 @@ keywords:
   - date selector
   - date range picker
   - date range selector
+exampleDependencies:
+  - DatePicker
 ---
 
 # Date picker

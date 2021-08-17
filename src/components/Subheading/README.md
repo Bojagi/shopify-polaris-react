@@ -15,6 +15,8 @@ keywords:
   - titles of subsections
   - android
   - ios
+exampleDependencies:
+  - Subheading
 ---
 
 # Subheading

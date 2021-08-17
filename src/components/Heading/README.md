@@ -19,6 +19,8 @@ keywords:
   - heading font
   - android
   - ios
+exampleDependencies:
+  - Heading
 ---
 
 # Heading

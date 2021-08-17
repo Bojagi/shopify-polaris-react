@@ -14,6 +14,9 @@ keywords:
   - on off
   - switch
   - adjuster
+exampleDependencies:
+  - SettingToggle
+  - TextStyle
 ---
 
 # Setting toggle

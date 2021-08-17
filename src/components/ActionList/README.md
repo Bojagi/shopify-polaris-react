@@ -11,6 +11,13 @@ keywords:
   - drop-down
   - select
   - options
+exampleDependencies:
+  - ActionList
+  - Popover
+  - Button
+  - Icon
+  - Thumbnail
+  - Avatar
 ---
 
 # Action list

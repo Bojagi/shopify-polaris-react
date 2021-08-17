@@ -11,6 +11,8 @@ keywords:
   - save delete actions
   - save actions
   - delete actions
+exampleDependencies:
+  - PageActions
 ---
 
 # Page actions

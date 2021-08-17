@@ -26,6 +26,14 @@ keywords:
   - list of resources
   - filter
   - sort
+exampleDependencies:
+  - IndexTable
+  - Card
+  - TextStyle
+  - EmptySearchResult
+  - TextField
+  - Filters
+  - Select
 ---
 
 # Index table

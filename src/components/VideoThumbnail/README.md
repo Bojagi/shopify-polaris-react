@@ -10,6 +10,9 @@ keywords:
   - feature thumbnail
   - education
   - contextual learning system
+exampleDependencies:
+  - VideoThumbnail
+  - MediaCard
 ---
 
 # Video thumbnail

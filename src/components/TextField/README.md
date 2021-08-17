@@ -46,6 +46,15 @@ keywords:
   - icon action
   - ios
   - android
+exampleDependencies:
+  - TextField
+  - FormLayout
+  - ChoiceList
+  - Select
+  - Stack
+  - Button
+  - InlineError
+  - Card
 ---
 
 # Text field

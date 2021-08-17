@@ -24,6 +24,13 @@ keywords:
   - collapse
   - ios
   - android
+exampleDependencies:
+  - Collapsible
+  - Card
+  - Stack
+  - Button
+  - TextContainer
+  - Link
 ---
 
 # Collapsible

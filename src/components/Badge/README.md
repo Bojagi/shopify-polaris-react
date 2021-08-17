@@ -19,6 +19,8 @@ keywords:
   - alert
   - ios
   - android
+exampleDependencies:
+  - Badge
 ---
 
 # Badge

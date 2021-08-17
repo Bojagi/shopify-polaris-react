@@ -15,6 +15,8 @@ keywords:
   - image preview
   - android
   - ios
+exampleDependencies:
+  - Thumbnail
 ---
 
 # Thumbnail

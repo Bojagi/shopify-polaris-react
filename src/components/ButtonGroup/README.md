@@ -23,6 +23,9 @@ keywords:
   - segmented control
   - ios
   - android
+exampleDependencies:
+  - ButtonGroup
+  - Button
 ---
 
 # Button group

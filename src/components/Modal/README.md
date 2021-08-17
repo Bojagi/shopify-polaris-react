@@ -30,6 +30,15 @@ keywords:
   - alert
   - android
   - ios
+exampleDependencies:
+  - Modal
+  - Button
+  - TextContainer
+  - Stack
+  - TextField
+  - ChoiceList
+  - DropZone
+  - Checkbox
 ---
 
 # Modal

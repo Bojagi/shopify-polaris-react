@@ -7,6 +7,8 @@ keywords:
   - progress indicator
   - progress bar
   - loading
+exampleDependencies:
+  - ProgressBar
 ---
 
 # Progress bar

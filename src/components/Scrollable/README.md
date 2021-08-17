@@ -13,6 +13,9 @@ keywords:
   - scrolling in panes
   - below the fold
   - above the fold
+exampleDependencies:
+  - Scrollable
+  - Card
 ---
 
 # Scrollable

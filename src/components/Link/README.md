@@ -19,6 +19,9 @@ keywords:
   - secondary actions
   - secondary cta
   - secondary call to action
+exampleDependencies:
+  - Link
+  - Banner
 ---
 
 # Link

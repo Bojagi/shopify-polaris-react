@@ -28,6 +28,8 @@ keywords:
   - visual statements
   - android
   - ios
+exampleDependencies:
+  - DisplayText
 ---
 
 # Display text

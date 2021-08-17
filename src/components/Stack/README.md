@@ -16,6 +16,10 @@ keywords:
   - right-aligned stack
   - stack layout
   - layout
+exampleDependencies:
+  - Stack
+  - Badge
+  - Heading
 ---
 
 # Stack

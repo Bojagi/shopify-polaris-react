@@ -15,6 +15,17 @@ keywords:
   - wrapper
   - sdk
 omitAppProvider: true
+exampleDependencies:
+  - AppProvider
+  - Page
+  - Card
+  - ResourceList
+  - Avatar
+  - TextStyle
+  - TopBar
+  - Layout
+  - SettingToggle
+  - Frame
 ---
 
 # App provider

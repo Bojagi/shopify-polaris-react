@@ -10,6 +10,10 @@ keywords:
   - cancel
   - logo
 omitAppProvider: true
+exampleDependencies:
+  - ContextualSaveBar
+  - AppProvider
+  - Frame
 ---
 
 # Contextual Save Bar

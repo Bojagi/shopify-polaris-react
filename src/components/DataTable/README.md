@@ -7,6 +7,11 @@ keywords:
   - table
   - tabular
   - index
+exampleDependencies:
+  - DataTable
+  - Page
+  - Card
+  - Link
 ---
 
 # Data table

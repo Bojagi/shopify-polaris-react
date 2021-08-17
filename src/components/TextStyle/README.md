@@ -23,6 +23,8 @@ keywords:
   - fields
   - android
   - ios
+exampleDependencies:
+  - TextStyle
 ---
 
 # Text style

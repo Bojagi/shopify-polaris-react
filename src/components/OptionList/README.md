@@ -11,6 +11,11 @@ keywords:
   - collections lists
   - collection lists
   - list selection
+exampleDependencies:
+  - OptionList
+  - Card
+  - Button
+  - Popover
 ---
 
 # Option list

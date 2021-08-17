@@ -11,6 +11,9 @@ keywords:
   - feature card
   - card with thumbnail
   - thumbnail card
+exampleDependencies:
+  - MediaCard
+  - VideoThumbnail
 ---
 
 # Media card

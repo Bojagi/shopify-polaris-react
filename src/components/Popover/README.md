@@ -25,6 +25,16 @@ keywords:
   - action sheet
   - ios
   - android
+exampleDependencies:
+  - Popover
+  - Button
+  - ActionList
+  - FormLayout
+  - Select
+  - TextField
+  - Card
+  - ResourceList
+  - Avatar
 ---
 
 # Popover

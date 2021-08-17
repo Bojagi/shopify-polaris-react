@@ -24,6 +24,8 @@ keywords:
   - next buttons
   - ios
   - android
+exampleDependencies:
+  - Pagination
 ---
 
 # Pagination

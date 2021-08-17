@@ -9,6 +9,8 @@ keywords:
   - keyboard shortcuts
   - keyboard letter
   - hotkey combinations
+exampleDependencies:
+  - KeyboardKey
 ---
 
 # Keyboard key

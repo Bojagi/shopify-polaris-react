@@ -6,6 +6,9 @@ keywords:
   - loader
   - loading
   - loading bar
+exampleDependencies:
+  - Loading
+  - Frame
 ---
 
 # Loading

@@ -13,6 +13,9 @@ keywords:
   - categorize objects
   - categories
   - keywords
+exampleDependencies:
+  - Tag
+  - Stack
 ---
 
 # Tag

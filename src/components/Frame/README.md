@@ -17,6 +17,24 @@ keywords:
   - toast
 fullSizeExamples: true
 omitAppProvider: true
+exampleDependencies:
+  - Frame
+  - ContextualSaveBar
+  - TopBar
+  - ActionList
+  - Navigation
+  - Page
+  - Layout
+  - Card
+  - FormLayout
+  - TextField
+  - SkeletonPage
+  - TextContainer
+  - SkeletonDisplayText
+  - SkeletonBodyText
+  - Modal
+  - AppProvider
+  - Loading
 ---
 
 # Frame

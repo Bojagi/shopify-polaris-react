@@ -13,6 +13,8 @@ keywords:
   - colorpicker with transparent value
   - alpha value picker
   - alpha value selector
+exampleDependencies:
+  - ColorPicker
 ---
 
 # Color picker

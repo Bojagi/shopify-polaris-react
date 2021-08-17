@@ -25,6 +25,16 @@ keywords:
   - separate error message
   - ios
   - android
+exampleDependencies:
+  - Select
+  - Icon
+  - TextStyle
+  - Link
+  - Stack
+  - FormLayout
+  - TextField
+  - InlineError
+  - Card
 ---
 
 # Select

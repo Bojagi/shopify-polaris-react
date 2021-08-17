@@ -13,6 +13,14 @@ keywords:
   - progress indicator
   - android
   - ios
+exampleDependencies:
+  - Spinner
+  - Form
+  - FormLayout
+  - TextField
+  - Button
+  - Card
+  - Tabs
 ---
 
 # Spinner
