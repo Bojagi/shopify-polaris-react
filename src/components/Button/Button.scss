@@ -18,6 +18,7 @@ $stacking-order: (
 
 .Button {
   @include button-base;
+  background-color: red;
 
   &.disabled {
     @include base-button-disabled;
